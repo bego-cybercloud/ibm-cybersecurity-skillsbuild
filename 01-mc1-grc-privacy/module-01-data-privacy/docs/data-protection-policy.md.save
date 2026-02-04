@@ -1,0 +1,29 @@
+# Política de Protección de Datos – Módulo 1
+
+## 1. Propósito
+Definir las directrices y responsabilidades para el manejo seguro de la información personal y sensible dentro de la organización, garantizando la confidencialidad, integridad y disponibilidad de los datos.
+
+## 2. Alcance
+Esta política aplica a todos los empleados, contratistas, proveedores y sistemas informáticos que procesen datos propiedad de la organización.
+
+## 3. Clasificación de la Información
+Para aplicar los controles adecuados, los datos se clasifican en:
+- **Pública:** Información disponible para todos (ej. Web corporativa).
+- **Interna:** Información para uso exclusivo de empleados (ej. Guías internas).
+- **Confidencial:** Datos sensibles del negocio (ej. Estrategias, Finanzas).
+- **Restringida (PII):** Datos personales que requieren máxima protección (ej. DNI, Datos bancarios, Salud).
+
+## 4. Medidas de Protección Técnica
+- **Cifrado:** Todos los datos Restringidos deben estar cifrados en reposo (bases de datos) y en tránsito (HTTPS/TLS).
+- **Control de Acceso:** Se aplicará el principio de "Menor Privilegio". Solo accederá quien lo necesite estrictamente para su trabajo.
+- **Logging:** Todo acceso a datos PII quedará registrado para auditoría.
+- **Backups:** Se realizarán copias de seguridad cifradas diariamente.
+
+## 5. Gestión de Incidentes
+Cualquier sospecha de fuga de información o brecha de seguridad debe ser reportada al equipo de Ciberseguridad en un plazo máximo de **24 horas**.
+
+## 6. Cumplimiento Normativo
+Esta política se alinea con los requisitos del **GDPR** (Europa) y la **LOPDGDD** (España).
+
+## 7. Revisión
+Este documento será revisado y actualizado anualmente o cuando ocurran cambios significativos en la infraestructura.
