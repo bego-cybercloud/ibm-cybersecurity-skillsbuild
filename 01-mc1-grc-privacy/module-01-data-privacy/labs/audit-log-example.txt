@@ -1,0 +1,13 @@
+# SERVER: SRV-SEC-01 | IP: 192.168.1.50 | DATE: 2026-02-04
+# SERVICE: Data_Protection_Module_v1
+
+[10:12:05] [INFO]  Usuario 'admin_bego' inició sesión (Method: SSH-Key).
+[10:12:15] [INFO]  Ejecutando script de protección de datos (proteccion_datos.py).
+[10:12:16] [INFO]  Procesando ID: user_001.
+[10:12:16] [SUCCESS] Contraseña hasheada correctamente (SHA-256).
+[10:12:16] [SUCCESS] PII enmascarado para reporte. Email original oculto.
+[10:15:00] [WARN]  Intento de acceso al archivo 'passwords.db' denegado. User: 'guest'.
+[10:15:01] [ALERT] Posible intento de acceso no autorizado detectado. IP: 10.0.0.99.
+[10:20:00] [INFO]  Backup automático iniciado.
+[10:22:30] [SUCCESS] Backup completado. Tamaño: 450MB. Encriptado: YES.
+[10:30:00] [INFO]  Sesión cerrada por 'admin_bego'.
