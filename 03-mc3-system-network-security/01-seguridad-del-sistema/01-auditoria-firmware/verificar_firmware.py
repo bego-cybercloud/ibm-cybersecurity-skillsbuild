@@ -1,34 +1,34 @@
+# ============================================================
+# Herramienta: Verificador de Integridad de Firmware (FIV)
+# Cliente: Capital Ink 
+# Autor:   Begoña Ortiz | Rol: Security Analyst @ BlueCore
+# Descripción: Compara el Hash SHA-256 para evitar malware.
+# ============================================================
+
 import hashlib
-import sys
 
-def verificar_hash_firmware(ruta_archivo, hash_esperado):
-    """
-    Simula la verificación de integridad de un archivo de firmware
-    comparando su hash SHA-256 real con el oficial del fabricante.
-    """
-    print(f"🔍 Analizando firmware: {ruta_archivo}...")
+def verificar_integridad(nombre_archivo, hash_oficial):
+    print(f"🔍 Analizando archivo: {nombre_archivo}...")
     
-    # En un caso real, aquí leeríamos el archivo binario.
-    # Para la simulación, usaremos un string dummy.
-    sha256_hash = hashlib.sha256()
+    # Simulamos el contenido del archivo (En entirno real se leería el binario)
+    contenido_simulado = f"Datos del firmware {nombre_archivo}".encode()
     
-    # Simulamos que leemos el archivo
-    contenido_simulado = b"Firmware-Capital-Ink-v2.0" 
-    sha256_hash.update(contenido_simulado)
+    # Calculamos el hash
+    hash_calculado = hashlib.sha256(contenido_simulado).hexdigest()
     
-    hash_calculado = sha256_hash.hexdigest()
+    print(f"   > Hash Calculado: {hash_calculado}")
+    print(f"   > Hash Oficial:   {hash_oficial}")
     
-    print(f"🧮 Hash Calculado: {hash_calculado}")
-    print(f"📝 Hash Esperado:  {hash_esperado}")
-    
-    if hash_calculado == hash_esperado:
-        print("\n✅ INTEGRIDAD VERIFICADA: El firmware es seguro para instalar.")
+    if hash_calculado == hash_oficial:
+        print("✅ EL FIRMWARE ES SEGURO. Proceder con instalación.")
     else:
-        print("\n❌ ALERTA DE SEGURIDAD: El hash no coincide. El archivo podría estar corrupto o infectado.")
+        print("❌ ALERTA: Los hashes no coinciden. Archivo corrupto.")
 
-# Ejemplo de uso (Simulación)
+# --- Ejecución ---
 if __name__ == "__main__":
-    # Hash SHA-256 de "Firmware-Capital-Ink-v2.0"
-    hash_oficial = "0a501e5b9875883842c867252069818823184518d8440263f69e63a18e00192e"
-    # Ejecutamos con un hash incorrecto para probar la alerta
-    verificar_hash_firmware("update_router_v2.bin", "99999999999999999999999999999999")
+    # Hash ficticio del fabricante
+    hash_bueno = "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e"
+    
+    print("--- Auditoría BlueCore: Inicio ---")
+    verificar_integridad("router_v2.bin", hash_bueno)
+    print("--- Auditoría Finalizada ---")
