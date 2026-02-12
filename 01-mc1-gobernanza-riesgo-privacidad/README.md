@@ -1,37 +1,39 @@
-
 # ⚖️ Microcredencial 1: Gobernanza, Riesgo y Privacidad
 
-Esta sección del portafolio se enfoca en los pilares fundamentales de la gestión de la seguridad de la información. Aquí se documentan las políticas, análisis de riesgos y marcos normativos (GDPR, NIST) desarrollados para garantizar la integridad y privacidad de los datos.
+Esta unidad se enfoca en la gestión estratégica de la seguridad, asegurando que los activos de datos estén protegidos bajo marcos normativos y estándares de la industria.
 
----
+## 🗺️ Guía de Navegación por Activos
 
-## 🗺️ Guía de Navegación Rápida
-
-Para facilitar la revisión técnica, he organizado los activos más importantes en esta tabla de acceso directo:
-
-| Sección | Contenido Destacado | Acceso Directo |
+| Categoría | Activo Técnico / Documento | Enlace Directo |
 | :--- | :--- | :--- |
-| **Módulo 1: Datos y Privacidad** | Scripts de cifrado SHA-256 y protocolos de anonimización de PII. | [Ver Código y Doc 🐍](./modulo-01-datos-y-privacidad/) |
-| **Módulo 2: GRC** | Análisis de riesgos, marcos NIST/ISO y cumplimiento ético. | [Ver Documentación 📄](./modulo-02-gobernanza-riesgo-cumplimiento/) |
-| **Proyecto Final 1** | Evaluación de postura de seguridad (Caso: Cedarville Family Health - HIPAA). | [Ver Proyecto 📂](./proyecto-final-01-postura-seguridad/) |
+| **Privacidad** | Notas sobre Privacidad de Datos | [Ver Notas 📝](./modulo-01-datos-y-privacidad/02-privacidad-datos/data-privacy-notes.md) |
+| **Gobernanza** | Política de Protección de Datos | [Ver Política 📋](./modulo-01-datos-y-privacidad/docs/data-protection-policy.md) |
+| **Riesgo** | Evaluación de Riesgos (NIST/ISO) | [Ver Evaluación 📉](./modulo-01-datos-y-privacidad/docs/risk-assessment.md) |
+| **Cifrado** | Script de Protección (Python) | [Ver Código 🐍](./modulo-01-datos-y-privacidad/04-cifrado-datos/proteccion_datos.py) |
+| **Backup** | Política de Copias de Seguridad | [Ver Estrategia 💾](./modulo-01-datos-y-privacidad/05-copia-seguridad-datos/backup-policy.md) |
+| **Módulo 2: GRC** | Análisis de riesgos y marcos NIST/ISO | [Ver Documentación 📄](./modulo-02-gobernanza-riesgo-cumplimiento/README.md) |
+| **Proyecto Final 1** | Evaluación de Postura (Cedarville - HIPAA) | [Ver Proyecto 📂](./proyecto-final-01-postura-seguridad/README.md) |
 
 ---
 
-## 🎯 Objetivos de aprendizaje
-* **Gobernanza:** Implementación de marcos de trabajo para la toma de decisiones alineadas con el negocio.
-* **Gestión de Riesgos:** Identificación, evaluación y mitigación de amenazas mediante matrices de riesgo.
-* **Cumplimiento (Compliance):** Aseguramiento del cumplimiento de leyes internacionales como el GDPR y estándares industriales.
-* **Privacidad:** Aplicación de controles técnicos para la protección de Información de Identificación Personal (PII).
+## 🎯 Escenarios Destacados
+
+### 1. Marco de Gestión de Riesgos (GRC)
+Implementación de controles basados en el **NIST Cybersecurity Framework**. Se analizan amenazas, vulnerabilidades e impacto para determinar el nivel de riesgo residual.
+* **Documento clave:** [`risk-assessment.md`](./modulo-01-datos-y-privacidad/docs/risk-assessment.md)
+
+### 2. Cumplimiento y Privacidad (HIPAA/GDPR)
+Simulación de auditoría para el caso **Cedarville Family Health**, asegurando el cumplimiento de la normativa HIPAA para datos de salud.
+* **Referencia técnica:** [`data-protection-policy.md`](./modulo-01-datos-y-privacidad/docs/data-protection-policy.md)
 
 ---
-
-## 🛠️ Herramientas y Frameworks utilizados
-* **Frameworks:** NIST CSF, ISO/IEC 27001.
-* **Normativas:** GDPR (General Data Protection Regulation), HIPAA (Salud).
-* **Tecnología:** Python (Criptografía), Documentación estructurada en Markdown.
-
----
-
-### 👤 Autoría
-**Begoña Ortiz** — *Analista de Ciberseguridad Jr.* [Regresar al menú principal](../README.md)
-
+<div align="center">
+  <b>Begoña Ortiz</b> | <i>Analista SOC Junior | Automatización (Python) · Azure · Ciberseguridad | IT Systems Background</i>  
+  <br>
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bego%C3%B1aortiz/) 
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/bego-cybercloud)
+  <br>
+  <i>"En el SOC, lo que no se mide no se gestiona, y lo que no se ordena no se defiende."</i>  
+  <br>
+  <b>© 2026 Begoña Ortiz — Portafolio IBM Cybersecurity Analyst</b>
+</div>
