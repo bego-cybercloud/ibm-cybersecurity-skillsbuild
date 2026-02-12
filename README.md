@@ -1,17 +1,16 @@
 # 🔐 IBM Cybersecurity Analyst Professional Certificate
 ### Portafolio Técnico de Begoña Ortiz
 
-Bienvenido a mi repositorio central de ciberseguridad. Este portafolio consolida la documentación técnica, scripts de automatización y políticas de seguridad desarrollados durante mi certificación profesional.
+Bienvenido a mi repositorio central de ciberseguridad. Este portafolio consolida la documentación técnica, scripts de automatización y políticas de seguridad desarrollados durante mi formación.
 
 **Enfoque del Portafolio:**
-Los proyectos aquí presentados son **simulaciones de entornos corporativos reales**, diseñados bajo la metodología de **IBM SkillsBuild** para replicar desafíos auténticos de la industria. Cada microcredencial aborda problemáticas tangibles: desde la contención de ransomware y auditorías de cumplimiento (GRC), hasta el hardening de servidores y defensa de red.
+Los proyectos aquí presentados son **simulaciones de entornos corporativos reales**, diseñados bajo la metodología de **IBM SkillsBuild** para replicar desafíos auténticos de la industria.
 
 ---
 
 ## 🚀 Mapa del Portafolio
 
-He estructurado este repositorio en **Microcredenciales** temáticas. 
-*(Nota: Las secciones marcadas en verde están finalizadas y auditadas).*
+He estructurado este repositorio en **Microcredenciales** temáticas. Pulsa en los enlaces para explorar cada sección.
 
 | Microcredencial | Escenario Real & Enfoque Técnico | Estado / Acceso |
 | :--- | :--- | :--- |
@@ -35,14 +34,14 @@ Durante la resolución de estos escenarios, he implementado y configurado las si
 ---
 
 ### 👤 Autoría y Contacto
-**Begoña Ortiz** *Analista de Ciberseguridad Jr.
+**Begoña Ortiz** — *Analista de Ciberseguridad Jr.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bego%C3%B1aortiz/) 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bego-cybercloud)
 
 ---
 <div align="center">
-  <i>"La ciberseguridad es la convergencia entre la estrategia de negocio y la excelencia técnica."</i>  
+  <i>"La ciberseguridad es la convergencia entre la estrategia de negocio y la excelencia técnica."</i>   
   <br>
   <b>© 2026 Begoña Ortiz — Portafolio IBM Cybersecurity Analyst</b>
 </div>
