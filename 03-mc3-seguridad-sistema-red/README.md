@@ -23,7 +23,7 @@ Simulación de un entorno de servidor empresarial para prácticas de Blue Team:
 ### 📡 BlueCore Port Scanner (Python)
 Script avanzado para auditoría de red:
 * **Funcionalidad:** Identificación de puertos abiertos, servicios activos y detección de banners de servicios.
-* **Ubicación:** [`./modulo-06-seguridad-red/02-dispositivos-seguridad/port_scanner.py`](./modulo-06-seguridad-red/02-dispositivos-seguridad/port_scanner.py)
+* **Ubicación:** [`./modulo-06-seguridad-red/01-amenazas-red/port_scanner.py`](./modulo-06-seguridad-red/01-amenazas-red/port_scanner.py)
 
 ---
 
